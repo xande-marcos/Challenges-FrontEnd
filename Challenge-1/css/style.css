@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: #1C0B19;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+header div #logo-header:hover{
+    cursor: pointer;
+}
+
+header div a{
+    font-size: 24px;
+    color: white;
+    padding: 30px;
+}
+
+header div a:hover{
+    color: #FFC145;
+    transition: color 200ms;
+}
+
+@media (max-width: 760px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header #logo-header{
+        justify-self: center;
+    }
+
+    header div a{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        padding-top: 18px;
+    }
+}
