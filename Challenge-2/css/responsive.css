@@ -1,0 +1,25 @@
+@media (max-width: 760px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    header img, .links-about{
+        margin-bottom: 22px;
+    }
+
+    .links a{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        padding-top: 5px;
+    }
+
+
+    .wrapper-about div p{
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
